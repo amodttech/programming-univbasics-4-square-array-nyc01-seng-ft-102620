@@ -2,7 +2,7 @@ def square_array(array)
   new_array = []
   count = array.length 
   count.times do |index|
-    array
+    new_array.push(array[index] **)
 end
 
 
